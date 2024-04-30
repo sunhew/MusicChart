@@ -50,9 +50,10 @@ jobs:
       run : |
         git config --global user.email "liarusen@gmail.com"
         git config --global user.name "sunhew" 
-        git add billboard/billboard100_*.json
+         git add billboard/billboard100_*.json
         git add bugs/bugs100_*.json
         git add melon/melon100_*.json
+        git add apple/apple100_*.json
         git commit -m "차트 수집 완료"
 
     - name: push
