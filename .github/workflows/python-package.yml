@@ -45,6 +45,7 @@ jobs:
         python3 pyBillboardChart.py
         python3 pyBugsChart.py
         python3 pyMelonChart.py
+        python3 pyAppleChart.py
 
     - name: commits
       run : |
